@@ -1,0 +1,9 @@
+Run this query in phpmyadmin 
+
+Note: o0431_users rename it with your table name of joomla database setup
+      Replace "joomla" with your own admin username (in some cases it may be admin)
+
+UPDATE o0431_users SET password ="d2064d358136996bd22421584a7cb33e:trd7TvKHx6dMeoMmBVxYmg0vuXEA4199" WHERE username = 'joomla';
+
+
+now your current password is => secret
